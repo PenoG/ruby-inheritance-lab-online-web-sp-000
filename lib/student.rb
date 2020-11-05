@@ -14,4 +14,8 @@ class Student < User
   def last_name
     @last_name
   end
+  
+  def learn(string)
+    @knowledge << string
+  end
 end
