@@ -5,6 +5,7 @@ class Student < User
   
   def initialize
     @knowledge = []
+  end
   
   def first_name
     @first_name
